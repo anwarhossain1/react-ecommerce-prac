@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar';
 import Cart from './components/Cart/Cart';
 import {commerce} from './lib/commerce';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Checkout from './components/CheckoutForm/Checkout/Checkout'
 function App() {
   const [products,setProducts] = useState([]);
   const [cart,setCart]=useState({});
@@ -59,6 +60,9 @@ console.log(cart);
           </Route>
           <Route exact path='/cart'>
             <Cart cart={cart} onUpdateCartQty={handleUpdateCartQty} onRemoveFromCart={handleRemoveFromCart} onEmptyCart={handleEmptyCart}/>
+          </Route>
+          <Route exact path='/checkout'>
+            <Checkout cart={cart}/>
           </Route>
         </Switch>
       </div>

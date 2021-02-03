@@ -3,7 +3,7 @@
 Live Demo:- https://react-prac.netlify.app/
 
 This is a demo ecommerce website in #progress based on 
-1. HTML5, CSS3 And JAvascript
+1. HTML5 And JAvascript
 2. React, React hooks, React router 
 3. MaterialUi for design and responsiveness 
 4. CommerceJS Api for fetching data's etc.

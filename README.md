@@ -1,6 +1,6 @@
 # react-ecommerce-prac
 #abc.com 
-Live Demo:- https://react-prac.netlify.app/
+<h1><a href="https://react-prac.netlify.app/">Live Website</a></h1>
 
 This is a demo ecommerce website in #progress based on 
 1. HTML5 And JAvascript
